@@ -1,7 +1,7 @@
 import React from 'react'
-import "./Cards_programacion_web.css"
+import "./CardsProgramacionWeb.css"
 
-function Cards_programacion_web() {
+function CardsProgramacionWeb() {
   return (
     <div>
         <div className='cards_programacion d-flex p-2'>
@@ -15,4 +15,4 @@ function Cards_programacion_web() {
   )
 }
 
-export default Cards_programacion_web
+export default CardsProgramacionWeb

@@ -1,7 +1,8 @@
 import React from 'react'
 import Banner from './banner/Banner'
 import "./Home.css"
-import Cards_programacion_web from './cards_programacion_web/cards_programacion_web'
+import CardsProgramacionWeb from './cards_programacion_web/CardsProgramacionWeb'
+
 
 
 function Home() {
@@ -9,7 +10,7 @@ function Home() {
     <>
     <div className='home'>
         <Banner></Banner>
-        <Cards_programacion_web></Cards_programacion_web>
+        <CardsProgramacionWeb></CardsProgramacionWeb>
     </div>
     </>
   )
