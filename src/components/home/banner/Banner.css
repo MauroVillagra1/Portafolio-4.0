@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script&family=Single+Day&display=swap');
+
+
+.home_banner_img{
+    width: 100vw;
+    height: 50vw;
+}
+
+.home_banner_img p{
+    text-align: center;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+}
+
+.home_banner_img img{
+    position: absolute;
+    width: 100vw;
+}
+
+@media (min-width: 576px) {
+    .home_banner_img p{
+        font-size: 50px;
+    }   
+}
+
+@media (min-width: 1200px) {
+    .home_banner_img{
+        height: 80vh;
+    } 
+    .home_banner_img img{
+        height: 80vh;
+    }
+}
+
