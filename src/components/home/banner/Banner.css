@@ -3,10 +3,7 @@
 
 .home_banner_img{
     width: 100vw;
-    position: relative;
-    height: 100vw;
-    max-height: 600px;
-    background-color: black;
+    height: 50vw;
 }
 
 .home_banner_img p{
@@ -21,9 +18,7 @@
 
 .home_banner_img img{
     position: absolute;
-    height: 100vw;
-    max-height: 600px;
-
+    width: 100vw;
 }
 
 @media (min-width: 576px) {
@@ -32,17 +27,12 @@
     }   
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .home_banner_img{
-        height: 70vw;
+        height: 80vh;
+    } 
+    .home_banner_img img{
+        height: 80vh;
     }
 }
 
-@media (min-width: 1200px) {
-    /* .home_banner_img p{
-        font-size: 70px;
-    }   
-    .home_banner_img img{
-        font-size: 70px;
-    } */
-}
