@@ -13,6 +13,7 @@
     color: white;
     font-family: 'Russo One', sans-serif;
     width: 50vw;
+    background: linear-gradient(to right bottom, #ffffff, #ffffff, #8d8d8d);
 }
 
 .cards_programacion_texto h3{
@@ -22,6 +23,15 @@
 }
 
 .cards_programacion_texto p{
-    font-size: 8px;
+    font-size: 6px;
     color: black;
+}
+
+.tecnologias_programacion_web{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.tecnologias_programacion_web img{
+    width: 20px;
 }
