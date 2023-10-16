@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-.cards_programación{
+.cards_programacion{
     overflow: hidden;
 }
 
-.cards_programación_imagen{
+.cards_programacion_imagen{
     width: 50vw;
 }
 
 
-.cards_programación_texto{
+.cards_programacion_texto{
     color: white;
     font-family: 'Russo One', sans-serif;
     width: 50vw;
 }
 
-.cards_programación_texto h3{
+.cards_programacion_texto h3{
     font-size: 15px;
     text-align: center;
     background-color: #161a42;
 }
 
-.cards_programación_texto p{
+.cards_programacion_texto p{
     font-size: 8px;
     color: black;
 }
