@@ -28,13 +28,10 @@ function Banner({setActiveSectionBody}) {
       onSelect={handleSecciones}
     >
       <Tab className="tab_seccion" eventKey="Proyectos" title="Proyectos" >
-        Proyectos
       </Tab>
       <Tab className="tab_seccion"  eventKey="Equipos" title="Equipos">
-        Equipos
       </Tab>
       <Tab className="tab_seccion"  eventKey="Sobre_Mi" title="Sobre Mi">
-      Sobre Mi
       </Tab>
     </Tabs>
       </div>
