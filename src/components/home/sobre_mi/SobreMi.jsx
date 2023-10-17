@@ -3,7 +3,7 @@ import "./SobreMi.css";
 function SobreMi() {
   return (
     <div className="d-flex flex-column text-light px-2">
-      <section>
+      <section className="my-5">
         <div className="d-flex align-items-center m-2 content_sobre_mi">
           <div className="imagen_sobre_mi">
             <img src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697517802/Portafolio/Equipo/Miembros/round-account-button-with-user-inside_icon-icons.com_72596_gzxtfw.png" alt="imagen_perfil" />
@@ -18,7 +18,7 @@ function SobreMi() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="my-5">
         <h4>Estudio</h4>
         <div className="d-flex flex-wrap lista_estudios">
           <li>
@@ -59,7 +59,7 @@ function SobreMi() {
           </li>
         </div>
       </section>
-      <section>
+      <section className="my-5">
         <h4>Tecnologías</h4>
         <div className="d-flex tecnologias_sobre_mi flex-wrap">
           <img
@@ -88,7 +88,7 @@ function SobreMi() {
           />
         </div>
       </section>
-      <section>
+      <section className="my-5">
         <h4>Habilidades</h4>
         <div className="lista_habilidades_sobre_mi">
           <h5>Analisis de Requerimientos</h5>
