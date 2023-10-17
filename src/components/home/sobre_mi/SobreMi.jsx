@@ -4,14 +4,13 @@ function SobreMi() {
   return (
     <div className="d-flex flex-column text-light px-2">
       <section>
-        <div className="title_sobre_mi">Sobre Mi</div>
-        <div className="nombre_sobre_mi">Mauro Villagra</div>
         <div className="d-flex align-items-center m-2 content_sobre_mi">
           <div className="imagen_sobre_mi">
             <img src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697517802/Portafolio/Equipo/Miembros/round-account-button-with-user-inside_icon-icons.com_72596_gzxtfw.png" alt="imagen_perfil" />
           </div>
           <div className="descripcion_sobre_mi">
             <ul>
+              <li><h5>Mauro Villagra</h5></li>
               <li>Edad: 21</li>
               <li>Nacionalidad: Argentina</li>
               <li>Provincia: Tucuman</li>
@@ -21,7 +20,7 @@ function SobreMi() {
       </section>
       <section>
         <h4>Estudio</h4>
-        <div className="d-flex flex-wrap lista_estudios justify-content-center">
+        <div className="d-flex flex-wrap lista_estudios">
           <li>
             <img
               src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697571804/Portafolio/Estudios/image-removebg-preview_96_knsdym.png"
@@ -62,29 +61,29 @@ function SobreMi() {
       </section>
       <section>
         <h4>Tecnologías</h4>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex tecnologias_sobre_mi flex-wrap">
           <img
-            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697487525/Portafolio/Proyectos%20web/icon/file_type_html_icon_130541_1_bxs1ja.png"
+            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697582132/Portafolio/Proyectos%20web/Iconos%20Grandes/file_type_html_icon_130541_2_vjvky4.png"
             alt="html_img"
           />
           <img
-            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697487553/Portafolio/Proyectos%20web/icon/file_type_css_icon_130661_1_t9al9h.png"
+            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697582129/Portafolio/Proyectos%20web/Iconos%20Grandes/file_type_css_icon_130661_2_juqiqy.png"
             alt="css_img"
           />
           <img
-            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697487549/Portafolio/Proyectos%20web/icon/bootstrap_plain_logo_icon_146619_1_xjjzj0.png"
+            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697582128/Portafolio/Proyectos%20web/Iconos%20Grandes/bootstrap_plain_logo_icon_146619_2_ro0ts1.png"
             alt="bootstrap_img"
           />
           <img
-            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697487551/Portafolio/Proyectos%20web/icon/file_type_js_official_icon_130509_1_bynsxa.png"
+            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697582139/Portafolio/Proyectos%20web/Iconos%20Grandes/file_type_js_official_icon_130509_2_cdnasb.png"
             alt="js_img"
           />
           <img
-            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697487547/Portafolio/Proyectos%20web/icon/react_original_logo_icon_146374_1_wjpttl.png"
+            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697582137/Portafolio/Proyectos%20web/Iconos%20Grandes/react_original_logo_icon_146374_2_k83znk.png"
             alt="react_img"
           />
           <img
-            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697487546/Portafolio/Proyectos%20web/icon/file_type_node_icon_130301_1_und28x.png"
+            src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697582135/Portafolio/Proyectos%20web/Iconos%20Grandes/file_type_node_icon_130301_2_cxdvmi.png"
             alt="node_img"
           />
         </div>

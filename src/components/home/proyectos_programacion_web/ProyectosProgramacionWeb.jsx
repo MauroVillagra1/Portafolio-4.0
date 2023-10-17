@@ -39,9 +39,9 @@ function ProyectosProgramacionWeb() {
   }]
 
   return (
-    <>
-        <CustomSwiper Slide_de_proyectos={Slide} />
-</>
+    <div className="px-4">
+        <CustomSwiper  Slide_de_proyectos={Slide} />
+</div>
   );
 }
 

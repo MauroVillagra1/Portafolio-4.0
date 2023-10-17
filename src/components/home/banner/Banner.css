@@ -28,13 +28,16 @@
     --bs-nav-tabs-link-active-bg: darkblue;
     --bs-nav-tabs-link-active-color: white;
     font-weight:500;
-    
 }
 .tab_seccion{
     text-align: center;
     color: white;
+
 }
 
+.tab_secciones Button{
+    width: 33vw;
+}
 
 
 @media (min-width: 576px) {

@@ -22,7 +22,7 @@ align-items: center;
 
 .informacion-proyecto h3{
     text-align: center;
-    font-size: calc(20px + 1vw);
+    font-size: calc(18px + 1vw);
 }
 .informacion-proyecto p{
     font-size: calc(6px + 1vw);
@@ -40,12 +40,8 @@ align-items: center;
 .informacion-proyecto a {
     width: 100vw;
     justify-content: center;
+    text-decoration: none;
 }
-/* .informacion-proyecto:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    opacity: 100;
-} */
 
 
 .carousel_proyecto{
@@ -55,22 +51,119 @@ align-items: center;
     margin-bottom: 5%;
 }
 
-/* .swiper-slide-active{
-    padding-top: 0;
-    z-index: 2;
-    
-  } */
+
 
 .slider_controller{
-    width: 100vw;
+  width: 80vw;
     justify-content: space-between;
     position: absolute;
     z-index: 3;
 }
+.swiper_button_prev{
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
 
+.swiper_button_next{
+right: 0;
+position: absolute;
+    z-index: 1;
+}
+
+.slider_arrow Button{
+border-radius: 50%;
+}
 .swiper_container{
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
+@media (min-width: 300px) {
+    .informacion-proyecto h3{
+        text-align: center;
+        font-size: calc(20px + 2vw);
+    }
+    .informacion-proyecto p{
+        font-size: calc(6px + 2vw);
+        padding: 0 5%;
+        text-align: center;
+    }
+    .informacion-proyecto a Button{
+        width: 50%;
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+    
+    }
+   
+}
+
+@media (min-width: 500px) {
+    
+    .informacion-proyecto h3{
+        font-size: 10px;
+    }
+    .informacion-proyecto p{
+        font-size: 8px;
+        width: 33vw;
+    }
+    .informacion-proyecto a Button{
+        width: 100%;
+        font-size: 10px;
+    }
+    
+    .informacion-proyecto a {
+        width: 20vw;
+        justify-content: center;
+    }
+
+    .carousel_proyecto img{
+        width: 100%;
+    }
+
+    .swiper-slide-active{
+    padding-top: 0;
+    z-index: 2;    
+  }
+
+  .informacion-proyecto:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    opacity: 100;
+}
+
+.informacion-proyecto{
+    opacity: 0;
+    width: 33vw;
+    min-height: -webkit-fill-available;
+}
+
+
+}
+
+@media (min-width: 750px) {
+    .informacion-proyecto h3{
+        font-size: 15px;
+    }
+    .informacion-proyecto p{
+        font-size: 10px;
+    }
+    .informacion-proyecto a Button{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .informacion-proyecto h3{
+        font-size: 20px;
+    }
+    .informacion-proyecto p{
+        font-size: 15px;
+    }
+    .informacion-proyecto a Button{
+        font-size: 15px;
+    }
+}

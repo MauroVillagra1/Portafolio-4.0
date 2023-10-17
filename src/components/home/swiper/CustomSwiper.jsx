@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 function CustomSwiper({ Slide_de_proyectos }) {
   const [swiper, setSwiper] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [slides_perview, setSlides_Perview] = useState(1)
 
   const goNext = () => {
     if (swiper) {
@@ -32,6 +33,13 @@ function CustomSwiper({ Slide_de_proyectos }) {
     }
   };
 
+
+  useEffect(() => {
+      if (window.innerWidth > 500) {
+        setSlides_Perview (3)     
+      } 
+  }, []);
+
   return (
     <div>
       <h3 className="text-center text-light custom-swiper mt-5">Proyectos</h3>
@@ -40,7 +48,7 @@ function CustomSwiper({ Slide_de_proyectos }) {
         effect={"coverflow"}
         grabCursor={true}
         loop={true}
-        slidesPerView={1} // 3
+        slidesPerView={slides_perview} // 3
         onSwiper={(s) => setSwiper(s)}
         onSlideChange={handleSlideChange}
         centeredSlides="true"
@@ -59,8 +67,7 @@ function CustomSwiper({ Slide_de_proyectos }) {
           </SwiperSlide>
         ))}
 
-        <div className="slider_controller d-flex">
-          <div className="swiper_button_prev slider_arrow">
+          <div className=" swiper_button_prev slider_arrow">
             <Button
               onClick={() => {
                 goPrev();
@@ -78,7 +85,6 @@ function CustomSwiper({ Slide_de_proyectos }) {
               &gt;
             </Button>
           </div>
-        </div>
       </Swiper>
     </div>
   );

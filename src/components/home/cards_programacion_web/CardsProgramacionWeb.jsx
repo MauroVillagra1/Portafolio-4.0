@@ -3,7 +3,7 @@ import "./CardsProgramacionWeb.css";
 
 function CardsProgramacionWeb() {
   return (
-    <div>
+    <div className="px-4">
       <div className="cards_programacion d-flex px-2 pt-2">
         <div className="cards_programacion_imagen d-flex w-50">
           <img
