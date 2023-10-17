@@ -7,7 +7,6 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import { Button } from "react-bootstrap";
 import "./CustomSwiper.css";
-import { Slide } from "@mui/material";
 import { Link } from "react-router-dom";
 
 function CustomSwiper({ Slide_de_proyectos }) {
@@ -34,7 +33,8 @@ function CustomSwiper({ Slide_de_proyectos }) {
   };
 
   return (
-    <>
+    <div>
+      <h3 className="text-center text-light custom-swiper mt-5">Proyectos</h3>
       <Swiper
         spaceBetween={10}
         effect={"coverflow"}
@@ -44,24 +44,17 @@ function CustomSwiper({ Slide_de_proyectos }) {
         onSwiper={(s) => setSwiper(s)}
         onSlideChange={handleSlideChange}
         centeredSlides="true"
-        className="swiper_container my-5"
+        className="swiper_container mb-5"
       >
         {Slide_de_proyectos.map((proyectos) => (
-          <SwiperSlide className="carousel_proyecto">
-            {({ isActive }) => (
-              <div>
-                Current slide is{" "}
-                {isActive && activeIndex === 0 ? "active" : "not active"}
-              </div>
-            )}
+          <SwiperSlide key={proyectos.id} className="carousel_proyecto">
             <img src={proyectos.Imagen} alt={proyectos.id} />
             <div className="informacion-proyecto d-flex flex-column text-light px-5">
               <h3>{proyectos.Nombre}</h3>
-
               <p>{proyectos.Descripcion}</p>
-              <Button variant="success" className="w-50">
-                <a href={proyectos.Link} target="_blank">Ir a la Página</a>
-              </Button>
+              <a href={proyectos.Link} target="_blank" className="d-flex">
+                <Button variant="success">Ir a la Página</Button>
+              </a>
             </div>
           </SwiperSlide>
         ))}
@@ -87,7 +80,7 @@ function CustomSwiper({ Slide_de_proyectos }) {
           </div>
         </div>
       </Swiper>
-    </>
+    </div>
   );
 }
 
