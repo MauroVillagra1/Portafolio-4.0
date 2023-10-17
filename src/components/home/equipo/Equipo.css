@@ -1,0 +1,35 @@
+.conteiner_equipo{
+    flex-wrap: wrap;
+}
+.conteiner_user{
+    position: relative;
+    justify-content: center;
+}
+.conteiner_user img{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: white;
+    max-width: 150px;
+    max-height: 150px;    
+}
+
+.conteiner_user p{
+    width: 90%;
+    bottom: 0;
+    position: absolute;
+    font-size: calc(2px + 2.5vw);
+    text-align: center;
+    background-color: blue;
+}
+@media (min-width: 400px) {
+    .conteiner_user p{
+        font-size: 12px;
+    }
+
+}
+@media (min-width: 750px) {
+    .conteiner_user p{
+        font-size: 15px;
+    }
+}

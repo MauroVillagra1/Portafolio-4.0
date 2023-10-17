@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.cards_programacion{
+    overflow: hidden;
+}
+
+.cards_programacion_imagen{
+    width: 50vw;
+}
+.cards_programacion_imagen img{
+    width: 100%;
+}
+
+.cards_programacion_texto{
+    font-size: 6px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    width: 50vw;
+    background: linear-gradient(to right bottom, #ffffff, #ffffff, #8d8d8d);
+}
+
+.cards_programacion_texto h3{
+    font-size: 15px;
+    text-align: center;
+    background-color: #161a42;
+}
+
+.cards_programacion_texto p{
+    font-size: calc(0.01rem + 2.5vw);
+    color: black;
+}
+
+.tecnologias_programacion_web{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.tecnologias_programacion_web img{
+    width: 20px;
+}
+
+@media (min-width: 300px) {
+    /* .cards_programacion_texto p{
+        font-size: 0.6rem;
+    }     */
+}
+
+@media (min-width: 500px) {
+.cards_programacion{
+    width: 500px;
+    font-size: 50px;
+}    
+.cards_programacion_texto h3{
+    font-size: 32px;
+    text-align: center;
+    background-color: #161a42;
+}
+
+.cards_programacion_texto p{
+    font-size: 12px;
+    color: black;
+}
+.tecnologias_programacion_web img{
+    width: 30px;
+}
+
+
+}
