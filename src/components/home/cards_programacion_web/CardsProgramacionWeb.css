@@ -7,7 +7,9 @@
 .cards_programacion_imagen{
     width: 50vw;
 }
-
+.cards_programacion_imagen img{
+    width: 100%;
+}
 
 .cards_programacion_texto{
     font-size: 6px;

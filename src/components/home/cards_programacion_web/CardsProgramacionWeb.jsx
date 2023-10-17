@@ -5,7 +5,7 @@ function CardsProgramacionWeb() {
   return (
     <div>
         <div className='cards_programacion d-flex px-2 pt-2'>
-            <div className='cards_programacion_imagen d-flex'><img src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697487152/Portafolio/Proyectos%20web/pexels-cottonbro-studio-5054352_ahphig.jpg" alt="programacion_web" /></div>
+            <div className='cards_programacion_imagen d-flex w-50'><img src="https://res.cloudinary.com/dol1ba0ld/image/upload/v1697487152/Portafolio/Proyectos%20web/pexels-cottonbro-studio-5054352_ahphig.jpg" alt="programacion_web" /></div>
             <div className='cards_programacion_texto d-flex flex-column'>
                 <h3 className='py-1'>Programación Web</h3>
                 <p className='px-2'>Como programador Full Stack, mi especialización se centra en Node.js y React. Tengo la capacidad de diseñar y desarrollar aplicaciones web completas, desde el backend con Node.js hasta el frontend con React. Mi enfoque es ofrecer soluciones tecnológicas efectivas y eficientes para satisfacer tus necesidades y metas.</p>
