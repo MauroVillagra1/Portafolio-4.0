@@ -3,16 +3,15 @@ import "./Home.css"
 import CardsProgramacionWeb from './cards_programacion_web/CardsProgramacionWeb'
 import ProyectosProgramacionWeb from './proyectos_programacion_web/ProyectosProgramacionWeb'
 import { React, useEffect, useState } from "react";
-// import CardPresentation from '../CardPresentation'
-// import Service from "../service/Sevice"
-// import Blog from "../blog/Blog"
-// import Works from "../works/Works"
-// function ServicesInfoBody() {
-//   return (
-//     <Service></Service>
-//   );
-// }
 import Equipo from './equipo/Equipo';
+import SobreMi from './sobre_mi/SobreMi';
+
+function Sobre_Mi() {
+  return (
+    <SobreMi></SobreMi>
+  );
+}
+
 
 function Proyectos() {
   return (
@@ -41,7 +40,7 @@ function Home() {
 
     {activeSectionBody === "Equipos" && <Equipos />}
   {activeSectionBody === "Proyectos" && <Proyectos />}
-  {/* {activeSectionBody === "blog" && <BlogInfoBody />}     */}
+  {activeSectionBody === "Sobre_Mi" && <Sobre_Mi />}    
         
     </div>
     </>
