@@ -1,5 +1,4 @@
 
-
 .carousel_proyecto img{
     width: 100%;
 }
@@ -11,21 +10,24 @@
     position: absolute;
     opacity: 100;
     background-color: rgba(0, 0, 0, 0.700);
-justify-content: space-evenly;
+justify-content: center;
 align-items: center;
 }
 
 .informacion-proyecto h3{
-    font-size: 50px;
+    text-align: center;
+    font-size: calc(20px + 1vw);
 }
 .informacion-proyecto p{
-    font-size: 18px;
+    font-size: calc(6px + 1vw);
     padding: 0 5%;
     text-align: center;
 }
 .informacion-proyecto Button a{
     color: white;
     text-decoration: none;
+    font-size: calc(5px + 1.2vw);
+
 }
 /* .informacion-proyecto:hover{
     background-color: rgba(0, 0, 0, 0.5);
@@ -38,6 +40,7 @@ align-items: center;
     padding-top: 10%;
     display: flex;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 /* .swiper-slide-active{
